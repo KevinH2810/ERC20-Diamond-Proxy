@@ -5,6 +5,7 @@ This is the sample implementation of ERC20 using diamond proxy repository [Solid
 # HOW TO USAGE
 
 - clone the repository
+- change file `.env.example` to `.env` and fill in the required env value
 - run command 
 ```
 $ npm i
@@ -13,8 +14,6 @@ $ npm i
 it will install all dependencies from 
 - [Hardhat](https://hardhat.org/hardhat-runner/plugins/nomicfoundation-hardhat-toolbox) : To unit tests the diamond proxy contracts and facets
 - [SolidState](https://github.com/solidstate-network/solidstate-solidity) : I recommend to use this repository for ease when developing contract using diamond proxy method
-
-- change file `.env.example` to `.env` and fill in the required env value
 
 # Unit Testing
 ## Preparation
