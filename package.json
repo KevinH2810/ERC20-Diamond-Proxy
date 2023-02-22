@@ -1,0 +1,33 @@
+{
+	"name": "erc20-diamond-proxy",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/KevinH2810/ERC20-Diamond-Proxy.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/KevinH2810/ERC20-Diamond-Proxy/issues"
+	},
+	"homepage": "https://github.com/KevinH2810/ERC20-Diamond-Proxy#readme",
+	"dependencies": {
+		"@nomicfoundation/common": "^3.0.0-rc.1",
+		"@nomiclabs/hardhat-etherscan": "^3.1.6",
+		"@nomiclabs/hardhat-web3": "^2.0.0",
+		"@solidstate/contracts": "^0.0.52",
+		"@solidstate/spec": "^0.0.52",
+		"dotenv": "^16.0.3",
+		"hardhat": "^2.12.7",
+		"hardhat-exposed": "^0.3.1"
+	},
+	"devDependencies": {
+		"@nomicfoundation/hardhat-toolbox": "^2.0.1"
+	}
+}

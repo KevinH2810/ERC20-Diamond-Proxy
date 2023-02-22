@@ -1,0 +1,6 @@
+.env
+package-lock.json
+/node_modules
+contracts-exposed
+artifacts
+cache
