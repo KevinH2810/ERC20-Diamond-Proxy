@@ -30,8 +30,6 @@ describe("ERC20 Facet", () => {
 	});
 
 	describe("mint", () => {
-		// reverted with custom error from Ownable contract
-		// please refer to https://github.com/solidstate-network/solidstate-solidity/blob/master/contracts/access/ownable/IOwnableInternal.sol for more details
 		it("fail - to mint not owner", async () => {
 			await expect(
 				testContract.connect(addr1).mint(addr1.address, 10)
